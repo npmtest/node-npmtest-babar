@@ -1,6 +1,6 @@
 # npmtest-babar
 
-#### test coverage for  [babar (v0.1.0)](https://github.com/stephan83/babar#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babar.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babar) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babar.svg)](https://travis-ci.org/npmtest/node-npmtest-babar)
+#### basic test coverage for  [babar (v0.1.0)](https://github.com/stephan83/babar#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babar.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babar) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babar.svg)](https://travis-ci.org/npmtest/node-npmtest-babar)
 
 #### CLI bar charts
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-babar/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-babar/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-babar/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-babar/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babar/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babar/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-babar/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-babar/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babar/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babar/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-babar/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-babar/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "version": "npm run build:lib"
     },
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "bin": {}
 }
 ```
 
